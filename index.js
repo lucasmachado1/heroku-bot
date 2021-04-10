@@ -18,7 +18,6 @@ function BotInit() {
   var query = {
     //Aqui vai o que você quer buscar
 	q: '#covid-19',
-	lang: 'pt',
     result_type: 'popular',
   };
  
