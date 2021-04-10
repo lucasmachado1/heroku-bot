@@ -2,6 +2,12 @@ var twit = require(`twit`);
 
 require("dotenv").config();
 
+let port ] process.env.PORT || 8080;
+
+app.listen(port, ()=>{
+	console.log('aporta foi abrida: ${port}');
+})
+
 const Bot = new twit({
   consumer_key: process.env.API_KEY,
   consumer_secret: process.env.API_SECRET_KEY,
