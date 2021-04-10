@@ -2,8 +2,6 @@ var twit = require(`twit`);
 
 require("dotenv").config();
 
-let port = process.env.PORT || 8080;
-
 
 
 const Bot = new twit({
