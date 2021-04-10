@@ -19,7 +19,7 @@ function BotInit() {
     //Aqui vai o que você quer buscar
 	q: '#covid-19',
 	lang: 'pt',
-    result_type: 'recents',
+    result_type: 'live',
   };
  
 
